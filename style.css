@@ -10,3 +10,8 @@
     background-color: rgb(91, 146, 91);
     height: 100vh;
 }
+
+.lista *{
+    font-size: 2rem;
+    padding: 1rem;
+}
