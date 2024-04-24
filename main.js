@@ -16,7 +16,7 @@ while (i < listaSpesa.length) {
     const element = listaSpesa[i];
     console.log(element);
 
-    document.querySelector(".lista").innerHTML += `${element}`
+    document.querySelector(".lista").innerHTML += `<li>${element}</li>`;
     document.getElementsByClassName("lista").innerHTML = ("Sei iscritto");
     i++;
 }
